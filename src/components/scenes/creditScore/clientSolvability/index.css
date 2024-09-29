@@ -1,0 +1,35 @@
+body,
+html {
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.stamp {
+  font-size: 3rem;
+  transform: rotate(-12deg) translate(-130%, -150%);
+  font-weight: 700;
+  border: 0.25rem solid #555;
+  display: inline-block;
+  padding: 0.25rem 1rem;
+  text-transform: uppercase;
+  font-family: "Courier";
+  -webkit-mask-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/8399/grunge.png");
+  -webkit-mask-size: 960px 600px;
+
+  font-size: 4rem;
+  border-radius: 0;
+}
+
+.is-declined {
+  color: #e2726e;
+  border: 0.5rem solid #e2726e;
+}
+
+.is-approved {
+  color: #70d8bd;
+  border: 0.5rem solid #70d8bd;
+}

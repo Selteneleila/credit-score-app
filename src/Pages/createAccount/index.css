@@ -1,0 +1,37 @@
+.main {
+  display: flex;
+  justify-content: center;
+  padding: 0 100px;
+  align-items: center;
+}
+.sign-up-panel {
+  height: 40rem;
+  width: 34rem;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0 2rem;
+}
+.sign-up-icon {
+  padding-left: 14rem;
+  padding-top: 2rem;
+}
+.img-sign-up-panel {
+  width: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-sign-up-panel > img {
+  display: flex;
+  justify-content: center;
+  width: 20rem;
+  height: 20rem;
+  object-fit: contain;
+}
+.login-link-container {
+  text-align: center;
+}
+.login-link {
+  padding-left: 0.5rem;
+}

@@ -1,0 +1,45 @@
+.rightpanel {
+  height: 40rem;
+  width: 23rem;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0 3rem;
+}
+.rightpanel .containerStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+.containerStyle h2 {
+  padding-top: 1rem;
+}
+
+.leftpanel > img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30rem;
+  height: 30rem;
+  object-fit: contain;
+  padding: 30px;
+}
+.password-link {
+  text-align: right;
+  padding-top: 0.5rem;
+  padding-bottom: 3rem;
+}
+.create-account-container {
+  padding-top: 1rem;
+  text-align: center;
+}
+.create-account-link {
+  padding-left: 0.3rem;
+  cursor: pointer;
+}
+.create-account-link:hover {
+  color: #535ac8;
+}

@@ -1,0 +1,18 @@
+.dropzone {
+  border: 1px dashed #3e4396;
+  width: auto;
+  text-align: center;
+}
+h5 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #3e4396;
+}
+.dropzone img {
+  width: 6rem;
+  height: 7rem;
+  position: relative;
+}
+.delete-btn {
+  text-align: right;
+}

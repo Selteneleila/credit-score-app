@@ -1,0 +1,19 @@
+.user-info-title {
+  display: inline;
+  color: #a4a9fc;
+  font-weight: bold;
+}
+.user-info-content {
+  padding-top: 0.5rem;
+}
+
+.show-more-btn {
+  padding-top: 1rem;
+}
+.paper-content {
+  padding: 1rem;
+}
+.paper-container {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
